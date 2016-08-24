@@ -1,4 +1,4 @@
-Capturing and Processing App Screenshots with _fastlane_
+Capturing and Processing Apple App Screenshots with _fastlane_
 ======================================================
 
 Taking screenshots of your app and then preparing them for display is time consuming, and it's hard to get everything right and consistent!
@@ -12,7 +12,7 @@ If you manually take screenshots of your app for many screen sizes, orientations
 
 If you put your screenshots into device frames for display on the App Store or your own website, _fastlane_ can be your automated design department by decorating each screenshot with a device frame and other text in the colors and fonts of your choice with **frameit**!
 
-# Automated Screenshot Capture
+# Capture Screenshots Automatically
 
 _snapshot_ works with _fastlane_ to automate the process of capturing screenshots of your app. It allows you to:
 
@@ -71,7 +71,7 @@ XCUIApplication *app = [[XCUIApplication alloc] init];
 ![assets/snapshot.gif](assets/snapshot.gif)
 
 
-If you have _fastlane_ installed, it's easy to give _snapshot_ a try. First clone the _fastlane_ repo, head over to the _snapshot_ example project, anywhered then run `fastlane snapshot`
+If you have _fastlane_ installed, it's easy to give _snapshot_ a try. First clone the _fastlane_ repo, head over to the _snapshot_ example project, and then run `fastlane snapshot`
 
 ```
 $ git clone https://github.com/fastlane/fastlane
@@ -82,6 +82,8 @@ $ fastlane snapshot
 ```
 
 # Decorate Screenshots with Device Frames
+
+# Upload Screenshots for the App Store
 
 To be written soon, this will contain
 
